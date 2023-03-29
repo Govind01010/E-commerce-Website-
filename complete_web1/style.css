@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x:hidden;  
+    font-family: 'Roboto Slab', serif;
+    font-weight:400;
+}
+.navbar{
+    height:60px;
+}
+.nav-item:hover{
+    background-color:black;
+}
+.nav-link:hover{
+    color:white;
+}
+.navbar-brand:hover{
+    background-color: white;
+    color:#094e9d;
+}
+.navbar-brand:hover span{
+   display:none;
+}
+.navbar-brand:hover:after{
+    content:"【S t o r e】"; 
+    padding-left:45px;
+  }
+  #logocart:hover{
+      background-color:#094e9d;
+    color: white;
+  }
+.title{
+    text-align: center;
+}
+.detail-img{
+    width:35px;
+}
+.h-eighty{
+    height:80px;
+}
+.mx-height{
+    height:100vh;
+}
+.row-five{
+    height:500px;
+}
+.h-h{
+    height:100px;
+}
+.h-fohf{
+    height:450px;
+}
+.b-b-2{
+    border:2px solid black;
+}
+.deco{
+    outline:none;
+    padding:5px;
+    border-radius:6px;
+}
+.fzx{
+    font-size:30px;
+}
+.fzl{
+    font-size: large;
+}
+.fz20{
+    font-size:20px;
+}
+.pdl{
+    padding-left:20px;
+}
+/* #home{
+    position: absolute;
+    top:80px;
+} */
+.bg-size{
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+    height:50vh;
+}
+.borderR{
+    border-radius:5px;
+}
+#logoshop{
+    width:120px;
+    height:60px;
+}
+#login{
+   
+    background:linear-gradient(white,rgb(11, 204, 101));
+}
+.loginbox{
+    margin:10px;
+}
+.pt100{
+    padding-top:100px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxshad{
+    box-shadow:0px 0px 20px 2px rgb(157, 147, 147);
+}
+.img-box{
+    position: relative;
+    width: 100%;
+}
+
+#aboutus{
+    height:100dvh;
+}
+.bg-red{
+    background-color:red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-darkblue{
+    background-color: #094e9d;
+}
+.bg-lightGrey{
+    background-color:lightgray;
+}
+.bgb{
+    background-color: black;
+}
+#logocart{
+  background-color: white;
+}
+.form-inline button:hover{
+    background-color:white;
+    color:#094e9d;
+}
+
+.fcdb{
+    color:#094e9d;
+}
+.fcw{
+    color: white;
+}
+.p10{
+    padding:10px;
+}
+
+.mt40{
+    margin-top:65px;
+}
+.form-controlnow{
+    font-size:13px;
+    padding:4px;
+    padding-left:5px;
+    border-radius:7px;
+    outline:none;
+}
+@media(max-width:500px)
+{
+    .aboutimg{
+        width:300px;
+    }
+}
